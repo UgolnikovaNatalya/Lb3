@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="30dp"
+    android:orientation="vertical"
+    android:id="@+id/main_root"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логин:"/>
+    <EditText
+        android:id="@+id/login_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:textColorHint="#A3A3A3"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пароль:"/>
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:textColorHint="#A3A3A3"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Идентификатор:"/>
+    <EditText
+        android:id="@+id/id_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:inputType="number"
+        android:textColorHint="#A3A3A3"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Приоритет:"/>
+    <EditText
+        android:id="@+id/priority_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"
+        android:inputType="number"
+        android:textColorHint="#A3A3A3"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Спец. параметр1:"/>
+    <EditText
+        android:id="@+id/special_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textSize="16dp"
+        android:inputType="numberDecimal"
+        android:textColorHint="#A3A3A3"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
